@@ -98,4 +98,4 @@ Python 3 with NumPy, SciPy, Pandas, and Matplotlib.
 python3 ZLK_state_classifier.py
 ```
 
-Place the script in a directory containing the required input files and run it directly. Output plots and a results.txt file will be generated automatically.
+Place the script in a directory containing the required input files (res_arg_#) and run it directly. Output plots and a results.txt file will be generated automatically.
