@@ -49,7 +49,7 @@ all_results = astropy.table.vstack([
 with open("Particles.el", "w") as f:
 
     # Write the total number of asteroids
-    f.write(f"{len(asteroid_ids)}\n")
+    # f.write(f"{len(asteroid_ids)}\n")
 
     # Loop over each asteroid's orbital elements
     for row in all_results:
