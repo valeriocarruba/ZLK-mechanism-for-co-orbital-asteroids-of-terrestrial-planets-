@@ -1,7 +1,7 @@
 # ZLK-mechanism-for-co-orbital-asteroids-of-terrestrial-planets-
 A repository for the software developed for the CMDA article Co-orbital asteroids of terrestrial planets affected by the von-Zeipel-Lidov-Kozai mechanism.  We are providing references for three codes:  1) Horizons Orbital Elements Exporter, 2) REBOUND Simulator, 3) ZLK-state classifier.
 
-### 1) Horizons Orbital Elements Exporter (horizons_query.py)
+# 1) Horizons Orbital Elements Exporter (horizons_query.py)
 
 This repository contains a Python script that queries NASA’s **JPL Horizons** system for asteroid orbital elements and saves the results to a file called `Particles.el`.
 The output format is designed to be simple, precise, and reusable in orbital simulations, numerical experiments, or post-processing pipelines.
@@ -48,7 +48,13 @@ Observer location
 location = '500@10'  # Earth
 Refer to the JPL Horizons documentation for valid object identifiers, locations, and epochs.
 
-### 2) REBOUND Simulator (REBOUND_Simulator.py)
+## ▶️ Usage
+
+```bash
+python3 horizons_query.py
+```
+
+# 2) REBOUND Simulator (REBOUND_Simulator.py)
 
 This repository contains a Python script, REBOUND_Simulator.py, that simulates the long-term orbital evolution of asteroids under the gravitational influence of the Sun and major Solar System bodies. The code uses the REBOUND N-body integrator and orbital elements retrieved from JPL Horizons to study variations in eccentricity and argument of periapsis, with a focus on identifying Kozai–Lidov–type behavior.
 
@@ -56,11 +62,9 @@ Asteroid orbital elements are read from a text file (Particles.el). For each ast
 
 ## 🧰  Requirements
 
-Python 3
-rebound, numpy, matplotlib
-astroquery, astropy, angles, tqdm
+Python 3, rebound, numpy, matplotlib, astroquery, astropy, angles, tqdm
 
-How to Run
+## ▶️ Usage
 
 1) Place asteroid elements in Particles.el, as obtained from the file horizons_query.py, in the same directory where you plan to run the simulation
 2) Install dependencies.
@@ -73,7 +77,7 @@ python3 REBOUND_Simulator.py
 
 4) Output figures (figure_XX.png) are generated in the working directory.
 
-### 3) ZLK State Classifier (ZLK_state_classifier.py)
+# 3) ZLK State Classifier (ZLK_state_classifier.py)
 
 This repository contains a Python script for analyzing and classifying dynamical states using resonant angle time series data. The code processes simulation outputs, applies a low-pass Butterworth filter to isolate long-period behavior, and extracts diagnostic quantities such as libration amplitude, mean resonant angle, and dominant oscillation period.  The script automatically infers an index from the working directory name, processes multiple input files per run, and generates both filtered and osculating angle plots. A Fourier analysis is used to identify the dominant period of the filtered signal, and summary results are written to a text file.
 
@@ -88,6 +92,10 @@ Compact numerical summary for downstream classification
 
 Python 3 with NumPy, SciPy, Pandas, and Matplotlib.
 
-## Usage
+## ▶️ Usage
+
+```bash
+python3 ZLK_state_classifier.py
+```
 
 Place the script in a directory containing the required input files and run it directly. Output plots and a results.txt file will be generated automatically.
