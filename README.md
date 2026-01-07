@@ -47,4 +47,4 @@ Observer location
 location = '500@10'  # Earth
 Refer to the JPL Horizons documentation for valid object identifiers, locations, and epochs.
 
-### REBOUND Simulator 
+## 2) REBOUND Simulator 
