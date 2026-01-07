@@ -36,6 +36,7 @@ Install them using pip:
 
 ```bash
 pip install astroquery astropy
+```
 
 An active internet connection is required to query JPL Horizons.
 
@@ -47,4 +48,4 @@ Observer location
 location = '500@10'  # Earth
 Refer to the JPL Horizons documentation for valid object identifiers, locations, and epochs.
 
-## 2) REBOUND Simulator 
+### 2) REBOUND Simulator 
