@@ -69,7 +69,7 @@ Asteroid orbital elements are read from a text file (Particles.el). For each ast
 
 ## 🧰  Requirements
 
-Python3.8+ with rebound, numpy, matplotlib, astroquery, astropy, angles, tqdm
+Python3.8+ with rebound, numpy, matplotlib, astroquery, astropy, angles, tqdm.
 
 ## ▶️ Usage
 
