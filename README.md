@@ -113,3 +113,14 @@ python3 ZLK_state_classifier.py
 ```
 
 Place the script in a directory containing the required input files (res_arg_#) and run it directly. Output plots and a results.txt file will be generated automatically.
+
+## Citation
+
+If you use this code in your research, please cite:
+
+Carruba, V., et al. (2026), *Co-orbital asteroids of terrestrial planets affected by the von-Zeipel-Lidov-Kozai mechanism*,  
+Celestial Mechanics and Dynamical Astronomy, in press.
+
+## License
+
+This repository is released under the MIT License (see `LICENSE` file).
