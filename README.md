@@ -92,7 +92,8 @@ are generated in the working directory.
 
 ## 3) ZLK State Classifier (ZLK_state_classifier.py)
 
-This repository contains a Python script for analyzing and classifying dynamical states using resonant angle time series data. The code processes simulation outputs, applies a low-pass Butterworth filter to isolate long-period behavior, and extracts diagnostic quantities such as libration amplitude, mean resonant angle, and dominant oscillation period.  The script automatically infers an index from the working directory name, processes multiple input files per run, and generates both filtered and osculating angle plots. A Fourier analysis is used to identify the dominant period of the filtered signal, and summary results are written to a text file.
+This repository contains a Python script for analyzing and classifying dynamical states using resonant angle time series data. The code processes simulation outputs, applies a low-pass Butterworth filter to isolate long-period behavior, and extracts diagnostic quantities such as libration amplitude, mean resonant angle, and dominant oscillation period. The script automatically infers an index from the working directory name and processes multiple input files per run. It generates both filtered and osculating angle plots. A Fourier analysis is used to identify the dominant period of the filtered signal, and summary results are written to a text file.
+
 
 ## 📌 Features
 
