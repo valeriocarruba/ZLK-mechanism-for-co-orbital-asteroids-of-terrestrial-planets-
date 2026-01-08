@@ -82,7 +82,13 @@ Python3.8+ with rebound, numpy, matplotlib, astroquery, astropy, angles, tqdm.
 python3 REBOUND_Simulator.py
 ```
 
-4) Output figures (figure_XX.png) are generated in the working directory.
+4) Output figures (`figure_XX.png`) showing:
+
+- eccentricity vs. argument of periapsis,
+- time evolution of the argument of periapsis,
+
+are generated in the working directory.
+
 
 ## 3) ZLK State Classifier (ZLK_state_classifier.py)
 
