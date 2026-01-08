@@ -36,10 +36,7 @@ The output file has the following structure:  the first line reports the number 
 
 ## 🧰 Requirements
 
-You will need **Python 3.8+** and the following packages:
-
-- `astroquery`
-- `astropy`
+You will need Python 3.8+ and astroquery, astropy.
 
 Install them using pip:
 
@@ -49,12 +46,13 @@ pip3 install astroquery astropy
 
 An active internet connection is required to query JPL Horizons.
 
-You may wish to modify:
+You may wish to modify the following parameters in `horizons_query.py`:
 
+```python
 asteroid_ids = ['2025 PN7', '2025 SC', '2025 RB7']
 epochs = 2460800.5
-Observer location
 location = '500@10'  # Earth
+```
 Refer to the JPL Horizons documentation for valid object identifiers, locations, and epochs.
 
 ## ▶️ Usage
@@ -71,7 +69,7 @@ Asteroid orbital elements are read from a text file (Particles.el). For each ast
 
 ## 🧰  Requirements
 
-Python 3, rebound, numpy, matplotlib, astroquery, astropy, angles, tqdm
+Python3.8+ with rebound, numpy, matplotlib, astroquery, astropy, angles, tqdm
 
 ## ▶️ Usage
 
@@ -99,7 +97,7 @@ Compact numerical summary for downstream classification
 
 ## 🧰 Requirements
 
-Python 3 with NumPy, SciPy, Pandas, and Matplotlib.
+Python3.8+ with NumPy, SciPy, Pandas, and Matplotlib.
 
 ## ▶️ Usage
 
