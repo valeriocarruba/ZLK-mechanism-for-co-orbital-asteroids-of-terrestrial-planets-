@@ -1,10 +1,14 @@
 # ZLK-mechanism-for-co-orbital-asteroids-of-terrestrial-planets-
 
-This repository provides code and data accompanying the paper:
+This repository provides the code and data accompanying the paper:
 
-Carruba et al. (2026), Co-orbital asteroids of terrestrial planets affected by the von-Zeipel-Lidov-Kozai mechanism, Celestial Mechanics and Dynamical Astronomy (in press).  
+**Carruba et al. (2026)**, *Co-orbital asteroids of terrestrial planets affected by the von-Zeipel-Lidov-Kozai mechanism*,  
+*Celestial Mechanics and Dynamical Astronomy* (in press).
 
-We are providing references for three codes:  1) Horizons Orbital Elements Exporter, 2) REBOUND Simulator, 3) ZLK-state classifier.
+The scripts in this repository allow users to:
+1) Retrieve asteroid orbital elements from JPL Horizons,
+2) Perform N-body integrations of co-orbital asteroids using the n-body integrator REBOUND,
+3) Analyze and classify von-Zeipel–Lidov–Kozai (ZLK) dynamical states.
 
 # 1) Horizons Orbital Elements Exporter (horizons_query.py)
 
