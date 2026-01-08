@@ -32,7 +32,7 @@ The output format is designed to be simple, precise, and reusable in orbital sim
 | `README.md` | This documentation file
 
 ## 🛰️ Output File Format (`Particles.el`)
-The output file has the following structure:  the first line reports the number of asteroids, while the subsequent lines display the Keplerian orbital elements a,e, inc, \Omega,\omega, M.
+The output file has the following structure:  the first line reports the number of asteroids, while the subsequent lines display the Keplerian orbital elements the Keplerian orbital elements: *a*, *e*, *i*, Ω, ω, *M*.
 
 ## 🧰 Requirements
 
