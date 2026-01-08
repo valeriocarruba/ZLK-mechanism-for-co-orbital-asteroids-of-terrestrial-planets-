@@ -1,6 +1,10 @@
 # ZLK-mechanism-for-co-orbital-asteroids-of-terrestrial-planets-
 
-A repository for the software developed for the CMDA article Co-orbital asteroids of terrestrial planets affected by the von-Zeipel-Lidov-Kozai mechanism.  We are providing references for three codes:  1) Horizons Orbital Elements Exporter, 2) REBOUND Simulator, 3) ZLK-state classifier.
+This repository provides code and data accompanying the paper:
+
+Carruba et al. (2026), Co-orbital asteroids of terrestrial planets affected by the von-Zeipel-Lidov-Kozai mechanism, Celestial Mechanics and Dynamical Astronomy (in press).  
+
+We are providing references for three codes:  1) Horizons Orbital Elements Exporter, 2) REBOUND Simulator, 3) ZLK-state classifier.
 
 # 1) Horizons Orbital Elements Exporter (horizons_query.py)
 
