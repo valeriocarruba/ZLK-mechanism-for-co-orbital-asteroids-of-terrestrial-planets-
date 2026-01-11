@@ -10,6 +10,8 @@ The scripts in this repository allow users to:
 2) Perform N-body integrations of co-orbital asteroids using the n-body integrator REBOUND,
 3) Analyze and classify von-Zeipel–Lidov–Kozai (ZLK) dynamical states.
 
+Questions on this repository may be addressed to the email [mlasb2021@gmail.com](mailto:mlasb2021@gmail.com).
+
 ## 1) Horizons Orbital Elements Exporter (horizons_query.py)
 
 This repository contains a Python script that queries NASA’s **JPL Horizons** system for asteroid orbital elements and saves the results to a file called `Particles.el`.
